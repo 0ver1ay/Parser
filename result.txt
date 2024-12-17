@@ -1,0 +1,832 @@
+<table class="colored_table">
+    <thead>
+        <tr>
+            <th>
+                Параметр
+            </th>
+            <th>
+                Значение
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+
+<tbody>
+<tr>
+<td>
+                   Наименование диапазона, Uk
+               </td>
+<td>
+                   Диапазон воспроизведения в значениях устанавливаемой шкалы
+               </td>
+<td>
+                   Пределы
+                   допускаемой основной погрешности, %
+               </td>
+<td>
+                   Максимальный ток нагрузки, мА
+               </td>
+<td>
+                   Напряжение шумов и пульсаций, мВ, не более
+               </td>
+</tr>
+<tr>
+<td>
+                   200 мВ
+               </td>
+<td>
+                    ±(000,05 - 200,00) мВ
+               </td>
+<td>
+                   ±(0,07 от U + 0,01 от Uк)
+               </td>
+<td>
+                   10
+               </td>
+<td>
+                   1
+               </td>
+</tr>
+<tr>
+<td>
+                   2 В
+               </td>
+<td>
+                   ±(0,0010- 2,0000) В
+               </td>
+<td>
+                   ±(0,05 от U + 0,005 от Uк)
+               </td>
+<td>
+                   10
+               </td>
+<td>
+                   2
+               </td>
+</tr>
+<tr>
+<td>
+                   20 В
+               </td>
+<td>
+                   ±(00,010 - 20,000) В
+               </td>
+<td>
+                   ±(0,05 от U + 0,005 от Uк)
+               </td>
+<td>
+                   10
+               </td>
+<td>
+                   2
+               </td>
+</tr>
+<tr>
+<td>
+                   200 В
+               </td>
+<td>
+                   ±(001,00 - 200,00) В
+               </td>
+<td>
+                   ±(0,07 от U + 0,01 от Uк)
+               </td>
+<td>
+                   5
+               </td>
+<td>
+                   150
+               </td>
+</tr>
+<tr>
+<td>
+                   600 В
+               </td>
+<td>
+                    ±(0010,0 - 0600) В
+               </td>
+<td>
+                   ±(0,1 от U + 0,02 от Uк)
+               </td>
+<td>
+                   5
+               </td>
+<td>
+                   250
+               </td>
+</tr>
+<tr>
+<td colspan="5">
+                   где U - значение измеряемого напряжения, Uк - конечное значение диапазона измерений.
+               </td>
+</tr>
+</tbody>
+
+    </tbody>
+</table><br><br><br>
+<table class="colored_table">
+    <thead>
+        <tr>
+            <th>
+                Параметр
+            </th>
+            <th>
+                Значение
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+
+<tbody>
+<tr>
+<td>
+                       Наименование диапазона, Uk
+                   </td>
+<td>
+                       Диапазон воспроизведения в значениях устанавливаемой шкалы
+                   </td>
+<td>
+                       Диапазон частот
+                   </td>
+<td>
+                       Пределы допускаемой основной погрешности, % 
+                   </td>
+<td>
+                       Макси
+                       мальный
+                       ток
+                       нагрузки,
+                       мА
+                   </td>
+<td>
+                       Емкость нагрузки, пФ, не
+                       более
+                   </td>
+<td>
+                       Коэффициент нелинейных искажений %, не более
+                   </td>
+</tr>
+<tr>
+<td rowspan="2">
+                       200 мВ
+                   </td>
+<td rowspan="2">
+                       (001,0-200,0) мВ
+                   </td>
+<td>
+                       от 20 Гц до 20 кГц
+                   </td>
+<td>
+                       ±(0,15 от U + 0,02 от Uк)
+                   </td>
+<td>
+                       10
+                   </td>
+<td>
+                       1000
+                   </td>
+<td>
+                       0,25
+                   </td>
+</tr>
+<tr>
+<td>
+                       св. 20 до 40 кГц вкл.
+                   </td>
+<td>
+                       ±(0,2 от U + 0,1 от Uк)
+                   </td>
+<td>
+                       10
+                   </td>
+<td>
+                       1000
+                   </td>
+<td>
+                       0,25
+                   </td>
+</tr>
+<tr>
+<td rowspan="2">
+                       2 В
+                   </td>
+<td rowspan="2">
+                       (0,100-2,000) В
+                   </td>
+<td>
+                       от 20 Гц до 20 кГц
+                   </td>
+<td>
+                       ±(0,15 от U + 0,02 от Uк)
+                   </td>
+<td>
+                       10
+                   </td>
+<td>
+                       1000
+                   </td>
+<td>
+                       0,25
+                   </td>
+</tr>
+<tr>
+<td>
+                       св. 20 до 40 кГц вкл.
+                   </td>
+<td>
+                       ±(0,2 от U + 0,1 от Uк)
+                   </td>
+<td>
+                       10
+                   </td>
+<td>
+                       1000
+                   </td>
+<td>
+                       0,25
+                   </td>
+</tr>
+<tr>
+<td rowspan="2">
+                       20 В
+                   </td>
+<td rowspan="2">
+                       (01,00-20,00) В
+                   </td>
+<td>
+                       от 20 Гц до 20 кГц
+                   </td>
+<td>
+                       ±(0,15 от U + 0,02 от Uк)
+                   </td>
+<td>
+                       10
+                   </td>
+<td>
+                       1000
+                   </td>
+<td>
+                       0,25
+                   </td>
+</tr>
+<tr>
+<td>
+                       св. 20 до 40 кГц вкл.
+                   </td>
+<td>
+                       ±(0,2 от U + 0,1 от Uк)
+                   </td>
+<td>
+                       10
+                   </td>
+<td>
+                       1000
+                   </td>
+<td>
+                       0,25
+                   </td>
+</tr>
+<tr>
+<td>
+                       200 В
+                   </td>
+<td>
+                       (010,0 -200,0) В
+                   </td>
+<td>
+                       от 40 Гц до 1 кГц
+                   </td>
+<td>
+                       ±(0,2 от U + 0,05 от U к)
+                   </td>
+<td>
+                       5
+                   </td>
+<td>
+                       330
+                   </td>
+<td>
+                       0,5
+                   </td>
+</tr>
+<tr>
+<td>
+                       600 В
+                   </td>
+<td>
+                       (0100-0600) В
+                   </td>
+<td>
+                       от 40 Гц до 1 кГц
+                   </td>
+<td>
+                       ±(0,2 от U + 0,05 от U к)
+                   </td>
+<td>
+                       5
+                   </td>
+<td>
+                       330
+                   </td>
+<td>
+                       0,5
+                   </td>
+</tr>
+<tr>
+<td colspan="7">
+                       где U - значение измеряемого напряжения, Uк - конечное значение диапазона измерений.
+                   </td>
+</tr>
+</tbody>
+
+    </tbody>
+</table><br><br><br>
+<table class="colored_table">
+    <thead>
+        <tr>
+            <th>
+                Параметр
+            </th>
+            <th>
+                Значение
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+
+<tbody>
+<tr>
+<td rowspan="2">
+                       Наимено-<br/>
+                               вание 
+                       диапазона, Iк
+                   </td>
+<td rowspan="2">
+                       Диапазон воспроизведения в значениях устанавливаемой 
+                       шкалы
+                   </td>
+<td colspan="2" style="text-align: center;"><b>
+                       Пределы допускаемой основной 
+                       погрешности, %
+                   </b></td>
+<td colspan="2" style="text-align: center;"><b>
+                       Максимальное напряжение на нагрузке, В
+                   </b></td>
+<td colspan="2" style="text-align: center;"><b>
+                       Напряжение шумов и пульсаций при максимальном напряжении на нагрузке, мВ, не более
+                   </b></td>
+</tr>
+<tr>
+<td>
+                       Н4-301
+                   </td>
+<td>
+                       Н4- 301/1
+                   </td>
+<td>
+                       Н4-301
+                   </td>
+<td>
+                       Н4-301 /1
+                   </td>
+<td>
+                       Н4-301
+                   </td>
+<td>
+                       Н4-301 /1
+                   </td>
+</tr>
+<tr>
+<td>
+                       200 мкА
+                   </td>
+<td>
+                       ±(001,00- 200,00) мкА
+                   </td>
+<td colspan="2" style="text-align: center;"><b>
+                       ±(0,1 от I + 0,02 от Iк)
+                   </b></td>
+<td colspan="2" style="text-align: center;"><b>
+                       3
+                   </b></td>
+<td colspan="2" style="text-align: center;"><b>
+                       -
+                   </b></td>
+</tr>
+<tr>
+<td>
+                       2 мА
+                   </td>
+<td>
+                       ±(0,0010-2,0000) мА
+                   </td>
+<td colspan="2" style="text-align: center;"><b>
+                        к)
+                   </b></td>
+<td colspan="2" style="text-align: center;"><b>
+                       3
+                   </b></td>
+<td colspan="2" style="text-align: center;"><b>
+                       -
+                   </b></td>
+</tr>
+<tr>
+<td>
+                       20 мА
+                   </td>
+<td>
+                       ±(00,010 -20,000) мА
+                   </td>
+<td colspan="2" style="text-align: center;"><b>
+                       ±( 0,1 от I + 0,01 от Iк)
+                   </b></td>
+<td colspan="2" style="text-align: center;"><b>
+                       3
+                   </b></td>
+<td colspan="2" style="text-align: center;"><b>
+                       -
+                   </b></td>
+</tr>
+<tr>
+<td>
+                       200 мА
+                   </td>
+<td>
+                       ±(000,10- 200,00) мА
+                   </td>
+<td colspan="2" style="text-align: center;"><b>
+                       ±(0,1 от I + 0,01 от Iк)
+                   </b></td>
+<td colspan="2" style="text-align: center;"><b>
+                       3
+                   </b></td>
+<td colspan="2" style="text-align: center;"><b>
+                       -
+                   </b></td>
+</tr>
+<tr>
+<td>
+                       2 А
+                   </td>
+<td>
+                       ±(0,0010 -2,0000) А
+                   </td>
+<td>
+                       ±(0,1 от I + 0,02 от Iк)
+                   </td>
+<td>
+                       -
+                   </td>
+<td>
+                       3
+                   </td>
+<td>
+                       -
+                   </td>
+<td>
+                       10
+                   </td>
+<td>
+                       -
+                   </td>
+</tr>
+<tr>
+<td>
+                       5 А
+                   </td>
+<td>
+                       ±(0,0010 - 5,0000) А
+                   </td>
+<td>
+                       ±(0,1 от I + 0,02 от Iк)
+                   </td>
+<td>
+                       -
+                   </td>
+<td>
+                       2
+                   </td>
+<td>
+                       -
+                   </td>
+<td>
+                       10
+                   </td>
+<td>
+                       -
+                   </td>
+</tr>
+<tr>
+<td colspan="8">
+                       где I - значение измеряемой силы тока,Iк - конечное значение диапазона измерений.
+                   </td>
+</tr>
+</tbody>
+
+    </tbody>
+</table><br><br><br>
+<table class="colored_table">
+    <thead>
+        <tr>
+            <th>
+                Параметр
+            </th>
+            <th>
+                Значение
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+
+<tbody>
+<tr>
+<td colspan="1" rowspan="2">
+                       Наименование
+                       диапазона, Iк
+                   </td>
+<td colspan="1" rowspan="2">
+                       Диапазон воспроизведения в значениях устанавливаемой шкалы 
+                       20 Гц -1 кГц
+                   </td>
+<td colspan="2" style="text-align: center;"><b>
+                       Пределы допускаемой основной
+                       погрешности, %
+                   </b></td>
+<td colspan="2" style="text-align: center;"><b>
+                       Максимальное напряжение на нагрузке, В
+                   </b></td>
+<td colspan="2" style="text-align: center;"><b>
+                       Коэффициент нелинейных искажений %, 
+                       не более
+                   </b></td>
+</tr>
+<tr>
+<td>
+                       Н4-301
+                   </td>
+<td>
+                       Н4-301 /1
+                   </td>
+<td>
+                       Н4-301
+                   </td>
+<td>
+                       Н4-301 /1
+                   </td>
+<td>
+                       Н4-301
+                   </td>
+<td>
+                       Н4-301 /1
+                   </td>
+</tr>
+<tr>
+<td>
+                       200 мкА
+                   </td>
+<td>
+                       (010,0 -200,0) мкА
+                   </td>
+<td colspan="2" style="text-align: center;"><b>
+                        (0,15 от I + 0,05от Iк)
+                   </b></td>
+<td colspan="2" style="text-align: center;"><b>
+                       3,0
+                   </b></td>
+<td colspan="2" style="text-align: center;"><b>
+                       -
+                   </b></td>
+</tr>
+<tr>
+<td>
+                       2 мА
+                   </td>
+<td>
+                       (0,100 - 2,000) мА
+                   </td>
+<td colspan="2" style="text-align: center;"><b>
+                        (0,15 от I + 0,05 от Iк)
+                   </b></td>
+<td colspan="2" style="text-align: center;"><b>
+                       3,0
+                   </b></td>
+<td colspan="2" style="text-align: center;"><b>
+                       -
+                   </b></td>
+</tr>
+<tr>
+<td>
+                       20 мА
+                   </td>
+<td>
+                       (01,00 -20,00) мА
+                   </td>
+<td colspan="2" style="text-align: center;"><b>
+                       от Iк)
+                   </b></td>
+<td colspan="2" style="text-align: center;"><b>
+                       3,0
+                   </b></td>
+<td colspan="2" style="text-align: center;"><b>
+                       -
+                   </b></td>
+</tr>
+<tr>
+<td>
+                       200 мА
+                   </td>
+<td>
+                       (010,0 -200,0) мА
+                   </td>
+<td colspan="2" style="text-align: center;"><b>
+                       от Iк)
+                   </b></td>
+<td colspan="2" style="text-align: center;"><b>
+                       3,0
+                   </b></td>
+<td colspan="2" style="text-align: center;"><b>
+                       0,25
+                   </b></td>
+</tr>
+<tr>
+<td>
+                       2 А
+                   </td>
+<td>
+                       (0,100-2,000) А
+                   </td>
+<td>
+                       ± (0,15 от I + 0,05 от Iк)
+                   </td>
+<td>
+                       -
+                   </td>
+<td>
+                       3,0
+                   </td>
+<td>
+                       -
+                   </td>
+<td>
+                       0,25
+                   </td>
+<td>
+                       -
+                   </td>
+</tr>
+<tr>
+<td>
+                       5 А
+                   </td>
+<td>
+                       (1,000- 5,000) А
+                   </td>
+<td>
+                       ± (0,15 от I + 0,05 от Iк)
+                   </td>
+<td>
+                       -
+                   </td>
+<td>
+                       2,0
+                   </td>
+<td>
+                       -
+                   </td>
+<td>
+                       1,0
+                   </td>
+<td>
+                       -
+                   </td>
+</tr>
+<tr>
+<td colspan="8">
+                       где I - значение измеряемой силы тока,Iк - конечное значение диапазона измерений.
+                   </td>
+</tr>
+</tbody>
+
+    </tbody>
+</table><br><br><br>
+<table class="colored_table">
+    <thead>
+        <tr>
+            <th>
+                Параметр
+            </th>
+            <th>
+                Значение
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+
+<tbody>
+<tr>
+<td colspan="2" style="text-align: center;"><b>
+                   Питание от сети переменного тока
+               </b></td>
+</tr>
+<tr>
+<td>
+                   - напряжение
+               </td>
+<td>
+                   230±23В
+               </td>
+</tr>
+<tr>
+<td>
+                   - частота
+               </td>
+<td>
+                   50±0,5Гц
+               </td>
+</tr>
+<tr>
+<td colspan="2" style="text-align: center;"><b>
+                   Потребляемая мощность, не более
+               </b></td>
+</tr>
+<tr>
+<td>
+                   - Н4-301
+               </td>
+<td>
+                   100В×А
+               </td>
+</tr>
+<tr>
+<td>
+                   - Н4-301/1
+               </td>
+<td>
+                   60В×А
+               </td>
+</tr>
+<tr>
+<td>
+                   Масса, не более
+               </td>
+<td>
+                   10кг
+               </td>
+</tr>
+<tr>
+<td colspan="2" style="text-align: center;"><b>
+                   Габариты, не более
+               </b></td>
+</tr>
+<tr>
+<td>
+                   - Н4-301
+               </td>
+<td>
+                   420×342×184,5мм
+               </td>
+</tr>
+<tr>
+<td>
+                   - Н4-301/1
+               </td>
+<td>
+                   428×327×235мм
+               </td>
+</tr>
+<tr>
+<td>
+                   Диапазон нормальных рабочих условий
+               </td>
+<td>
+                   от плюс 15°С до плюс 25°С
+               </td>
+</tr>
+<tr>
+<td>
+                   Диапазон рабочих условий применения
+               </td>
+<td>
+                   от минус 10°С до плюс 50°С
+               </td>
+</tr>
+<tr>
+<td>
+                   Степень защиты оболочки по ГОСТ 14254-2015
+               </td>
+<td>
+                   IP20
+               </td>
+</tr>
+<tr>
+<td>
+                   Наработка на отказ, не менее
+               </td>
+<td>
+                   15000ч
+               </td>
+</tr>
+</tbody>
+
+    </tbody>
+</table>
