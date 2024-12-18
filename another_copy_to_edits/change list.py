@@ -3,7 +3,6 @@ def create_comma_separated_string(text):
     comma_separated_string = ', '.join(text_list)
     return comma_separated_string
 
-# Example usage
 input_text = '''
 Запросы
 реноком
