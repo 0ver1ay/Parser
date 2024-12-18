@@ -1,19 +1,19 @@
 import os
 
 def process_file(input_file):
-    encodings = ['utf-8', 'cp1251']  # Add more encodings if necessary
+    encodings = ['utf-8', 'cp1251']  
     modified_content = []
 
     for encoding in encodings:
         try:
-            # Read the content of the file with the current encoding
+           
             with open(input_file, 'r', encoding=encoding, errors='replace') as file:
                 content = file.read()
 
-            # Remove HTML classes
+            
             content = remove_html_classes(content)
 
-            # Add table tags
+           
             content = add_table_tags(content)
 
             modified_content.append(content)
@@ -66,7 +66,7 @@ def remove_html_classes(content):
 
 def add_table_tags(content):
 
-    # Add table tags around the content
+    
     content = '<table class="colored_table">\n' + \
               '    <thead>\n' + \
               '        <tr>\n' + \
@@ -103,17 +103,17 @@ def process_files(input_files):
         modified_content.extend(content)
     return modified_content
 
-# Get the current directory
+
 directory = os.getcwd()
 
-# Find files starting with 'html_input_' and ending with '.txt'
+
 input_files = [filename for filename in os.listdir(directory) if filename.startswith('html_input_') and filename.endswith('.txt')]
 
 output_file = 'result.txt'
 modified_content = process_files(input_files)
 combine_files(modified_content, output_file)
 
-# Delete input_files
+
 for input_file in input_files:
     file_path = os.path.join(directory, input_file)
     os.remove(file_path)
