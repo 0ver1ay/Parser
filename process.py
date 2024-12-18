@@ -19,10 +19,10 @@ def process_file(input_file):
             modified_content.append(content)
 
             print(f"File processed successfully with encoding: {encoding}")
-            return modified_content  # Exit the function if the file is processed successfully
+            return modified_content
 
         except UnicodeDecodeError:
-            continue  # Try the next encoding if a decoding error occurs
+            continue
 
     print(f"Unable to determine the correct encoding for the file: {input_file}")
     return modified_content
@@ -30,32 +30,21 @@ def process_file(input_file):
 
 def remove_html_classes(content):
     import re
-    # Remove HTML class attributes
+    
     content = re.sub(r'class\s*=\s*"[^"]*"', '', content)
-
-    # Remove colspan attributes
-    # content = re.sub(r'colspan\s*=\s*"\d*"', '', content)
-
-    # Remove height attributes
     content = re.sub(r'height\s*=\s*"[^"]*"', '', content)
-
-    # Remove width attributes
     content = re.sub(r'width\s*=\s*"[^"]*"', '', content)
-
-    # Remove HTML comments
     content = re.sub(r'<!--(.*?)-->', '', content, flags=re.DOTALL)
-
-    # Delete <br> and </br> tags
     content = re.sub(r'<b\s*/?>', '', content)
 
-    # Align text in <td> with colspan=2
+    
     content = re.sub(
         r'<td([^>]*)colspan\s*=\s*"2"([^>]*)>',
         r'<td\1colspan="2"\2 style="text-align: center;">',
         content, flags=re.DOTALL
     )
 
-    # Wrap text in <b> tags for <td> with colspan=2
+   
     content = re.sub(
         r'<td([^>]*)colspan\s*=\s*"2"([^>]*)>(.*?)</td>',
         r'<td\1colspan="2"\2><b>\3</b></td>',
