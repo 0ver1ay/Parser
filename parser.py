@@ -16,7 +16,6 @@ def save_tables(url, class_name):
         
         output_file = f'html_input_{i+1}.txt'
         with open(output_file, 'w', encoding='utf-8') as file:
-            # Extract table content without opening and closing tags
             table_content = ''.join(str(child) for child in table.contents)
             file.write(table_content)
             file.write('\n')
